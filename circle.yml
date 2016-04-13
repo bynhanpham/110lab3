@@ -14,8 +14,9 @@ dependencies:
     override:
 
             - echo y | android update sdk --no-ui --all --filter tools
-            - echo y | android update sdk --no-ui --all --filter build-tools-19.1.0
+            - echo y | android update sdk --no-ui --all --filter build-tools-23.0.3
             - chmod +x gradlew
+
 
 test:
      override:
