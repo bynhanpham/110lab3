@@ -18,7 +18,7 @@ public class JUnit_test extends ActivityInstrumentationTestCase2<MainActivity>{
 
     public void test_first(){
         mainActivity = getActivity();
-//lasdfadf
+
     TextView textView = (TextView) mainActivity.findViewById(R.id.tv1);
         String tester = textView.getText().toString();
 
